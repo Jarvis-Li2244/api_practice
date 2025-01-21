@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   
   api_Select.addEventListener("change", function(event) {
-      FFXIV(api_Select.value)
+      FFXIV(api_Select.value) //Changed endpoints, Other API calls.
   })
 
   id_Input.addEventListener("input", function(event) {
@@ -88,6 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
       FFXIV(api_Select.value)
   })
   
-  FFXIV(api_Select.value)
+  FFXIV(api_Select.value) //First API Call of "spells"
   
   });
